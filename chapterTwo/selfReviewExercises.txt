@@ -8,3 +8,9 @@ d) print((x + y), '=', (y + x)) 5 = 5
 2.2 (What’s wrong with this code?) The following code should read an integer into the
 variable rating:
 rating = input('Enter an integer rating between 1 and 10')
+
+2.3 (Fill in the missing code) Replace *** in the following code with a statement that
+will print a message like 'Congratulations! Your grade of 91 earns you an A in this
+course'. Your statement should print the value stored in the variable grade:
+if grade >= 90:
+    print("Congratulations! A grade greater than 90 earns you an A in this course")
