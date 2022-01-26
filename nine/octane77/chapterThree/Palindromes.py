@@ -4,3 +4,14 @@
 # and determines whether it’s a palindrome. [Hint: Use the // and % operators to separate
 # the number into its digits.]
 
+integer = int(input("Enter a five digit integer: "))
+int1 = integer // 10_000
+int2 = integer % 10_000 // 1000
+int3 = integer % 10_000 % 1000 // 100
+int4 = integer % 10_000 % 1000 % 100 // 10
+int5 = integer % 10_000 % 1000 % 100 % 10
+
+if int1 == int5 and int2 == int4:
+    print("{} is a palindrome".format(integer))
+else:
+    print("{} isn't a palindrome".format(integer))

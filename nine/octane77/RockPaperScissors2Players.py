@@ -7,13 +7,17 @@ for i in range(10):
 
     if user_1 == "Rock" and user_2 == "Scissors":
         Player1Score += 1
+        print("Player 1 Wins this round")
     elif user_1 == "Scissors" and user_2 == "Paper":
         Player1Score += 1
+        print("Player 1 Wins this round")
     elif user_1 == "Paper" and user_2 == "Rock":
         Player1Score += 1
+        print("Player 1 Wins this round")
 
     else:
         Player2Score += 1
+        print("Player 2 Wins this round")
 
 print("Player 1 Score: ", Player1Score)
 print("Player 2 Score: ", Player2Score)

@@ -12,7 +12,6 @@
 # 4 16 64
 # 5 25 125
 
-x = 0
 print("Number\tSquare\tCube ")
 for var in range(6):
     print(f'{var: > 6} {var ** 2: > 7} {var ** 3: > 5}')
